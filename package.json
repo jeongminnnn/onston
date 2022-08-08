@@ -33,6 +33,7 @@
     "last 2 versions"
   ],
   "dependencies": {
+    "counterup2": "^2.0.2",
     "jquery": "^3.6.0",
     "swiper": "^8.3.2"
   }

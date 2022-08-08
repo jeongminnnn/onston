@@ -1,5 +1,5 @@
 import '../scss/main.scss'
-import Swiper, { Navigation, Pagination } from 'swiper';
+import Swiper, { Navigation, Pagination } from 'swiper'
 
 const swiper = new Swiper(".visual .swiper", {
     slidesPerView: 1,
@@ -32,11 +32,7 @@ const swiper1 = new Swiper(".platform .swiper", {
         centeredSlides: true,
         keyboard: {
             enabled: true,
-        },
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-        },
+        }
 });
 
 const swiper2 = new Swiper(".roadmap .swiper", {
@@ -44,11 +40,7 @@ const swiper2 = new Swiper(".roadmap .swiper", {
         spaceBetween: 0,
         keyboard: {
             enabled: true,
-        },
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-        },
+        }
 });
 
 
