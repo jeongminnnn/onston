@@ -9,7 +9,7 @@ const swiper = new Swiper(".visual .swiper", {
         enabled: true,
     },
     autoplay: {
-        delay: 2500,
+        delay: 1500,
         disableOnInteraction: false,
     },
     effect: 'creative',
@@ -17,7 +17,7 @@ const swiper = new Swiper(".visual .swiper", {
     creativeEffect: {
         prev: {
         // will set `translateZ(-400px)` on previous slides
-            translate: ['-100%', 0, 0],
+            translate: [0, '100%', 0],
         },
         next: {
         // will set `translateX(100%)` on next slides

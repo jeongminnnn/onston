@@ -174,8 +174,9 @@ main {
             display: flex;
             li {
                 width: 25%;
+                text-align: center;
                 img {
-                    display: block;
+                    display: inline-block;
                     padding-bottom: 5vh;
                 }
                 p {
